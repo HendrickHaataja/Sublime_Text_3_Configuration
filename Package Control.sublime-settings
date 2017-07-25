@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Arduino-like IDE",
+		"C Improved",
+		"FileDiffs",
+		"Package Control",
+		"SystemVerilog",
+		"Terminal",
+		"TrailingSpaces",
+		"Verilog",
+		"VHDL"
+	]
+}

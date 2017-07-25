@@ -1,0 +1,41 @@
+[
+    {
+        "keys": ["j","j"], "command": "exit_insert_mode",
+            "context":
+            [
+                {"key": "setting.command_mode", "operand":false},
+                {"key": "setting.is_widget", "operand": false}
+            ]
+    },
+    {
+        "keys": ["j","k"], "command": "exit_insert_mode",
+            "context":
+            [
+                {"key": "setting.command_mode", "operand":false},
+                {"key": "setting.is_widget", "operand": false}
+            ]
+    },
+    {
+        "keys": ["k","j"], "command": "exit_insert_mode",
+            "context":
+            [
+                {"key": "setting.command_mode", "operand":false},
+                {"key": "setting.is_widget", "operand": false}
+            ]
+    },
+    {
+        "keys": [";",";"], "command": "exit_visual_mode",
+            "context":
+            [
+                {"key": "setting.command_mode"}
+            ]
+    },
+    {
+        "keys": ["v"], "command": "exit_visual_mode",
+            "context":
+            [
+                {"key": "setting.command_mode", "operand":false},
+                 {"key": "setting.insert_mode", "ooperand":false}
+            ]
+    }
+]

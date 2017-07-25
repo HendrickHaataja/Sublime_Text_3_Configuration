@@ -1,0 +1,126 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Library",
+				"id": "stino_import_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_libraries",
+						"command": "stino_refresh_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "Bridge",
+						"id": "stino_library_Bridge",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Bridge"}
+					},
+					{
+						"caption": "Esplora",
+						"id": "stino_library_Esplora",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Esplora"}
+					},
+					{
+						"caption": "Ethernet",
+						"id": "stino_library_Ethernet",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Ethernet"}
+					},
+					{
+						"caption": "Firmata",
+						"id": "stino_library_Firmata",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Firmata"}
+					},
+					{
+						"caption": "genieArduino",
+						"id": "stino_library_genieArduino",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/genieArduino"}
+					},
+					{
+						"caption": "GSM",
+						"id": "stino_library_GSM",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/GSM"}
+					},
+					{
+						"caption": "LiquidCrystal",
+						"id": "stino_library_LiquidCrystal",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/LiquidCrystal"}
+					},
+					{
+						"caption": "Robot IR Remote",
+						"id": "stino_library_Robot IR Remote",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/RobotIRremote"}
+					},
+					{
+						"caption": "Robot Control",
+						"id": "stino_library_Robot Control",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Robot_Control"}
+					},
+					{
+						"caption": "Robot Motor",
+						"id": "stino_library_Robot Motor",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Robot_Motor"}
+					},
+					{
+						"caption": "SD",
+						"id": "stino_library_SD",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/SD"}
+					},
+					{
+						"caption": "Servo",
+						"id": "stino_library_Servo",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Servo"}
+					},
+					{
+						"caption": "SpacebrewYun",
+						"id": "stino_library_SpacebrewYun",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/SpacebrewYun"}
+					},
+					{
+						"caption": "Stepper",
+						"id": "stino_library_Stepper",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Stepper"}
+					},
+					{
+						"caption": "Temboo",
+						"id": "stino_library_Temboo",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/Temboo"}
+					},
+					{
+						"caption": "TFT",
+						"id": "stino_library_TFT",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/TFT"}
+					},
+					{
+						"caption": "WiFi",
+						"id": "stino_library_WiFi",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files/Arduino/libraries/WiFi"}
+					},
+					{"caption": "-"}
+				]
+			}
+		]
+	}
+]
